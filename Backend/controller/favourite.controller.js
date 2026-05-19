@@ -64,6 +64,8 @@ export const checkFavourite = asyncHandler(async (req, res) => {
 });
 
 // ✅ GET /api/favourites
+// api working fine
+
 export const getMyFavourites = asyncHandler(async (req, res) => {
   const userId = req.user.id;
 
